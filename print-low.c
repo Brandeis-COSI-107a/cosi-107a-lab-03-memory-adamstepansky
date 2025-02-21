@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
             num = strtol(argv[i], NULL, 10);
         }
         
-        int low_8_bits = number & 0xFF;
+        int low_8_bits = num & 0xFF;
         printf("%d 0x%02X %3d\n", i, low_8_bits, low_8_bits);
     }
 
