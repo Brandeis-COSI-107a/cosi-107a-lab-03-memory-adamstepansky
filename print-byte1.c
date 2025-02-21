@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 
         unsigned char byte1 = (num >> 8) & 0xFF;
 
-        printf("%d 0x%02lX %d\n", i, byte1, byte1);
+        printf("0x%02X   %3d\n", byte1, byte1);
     }
 
     return 0;
